@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
+static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
 static int borderpx = 2;
 static char shell[] = "/bin/sh";
 
@@ -34,7 +34,7 @@ static unsigned int actionfps = 30;
 static unsigned int blinktimeout = 800;
 
 /* TERM value */
-static char termname[] = "st-256color";
+static char termname[] = "screen-256color";
 
 static unsigned int tabspaces = 8;
 
